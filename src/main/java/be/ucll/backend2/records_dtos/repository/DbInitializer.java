@@ -2,7 +2,6 @@ package be.ucll.backend2.records_dtos.repository;
 
 import be.ucll.backend2.records_dtos.model.Post;
 import jakarta.annotation.PostConstruct;
-import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
 @Component
