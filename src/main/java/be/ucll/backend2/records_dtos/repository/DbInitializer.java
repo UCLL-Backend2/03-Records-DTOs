@@ -14,15 +14,7 @@ public class DbInitializer {
 
     @PostConstruct
     public void initialize() {
-        final var post1 = new Post("Welcome to my blog!",
-                """
-                 Welcome to my blog!
-                 
-                 I'm thrilled to have you here. This space is dedicated to sharing my thoughts, experiences, and insights on a variety of topics.
-                 Whether you're here for the latest updates, in-depth articles, or just some light reading, I hope you find something that piques your interest.
-                 
-                 Feel free to explore, comment, and connect. Happy reading!
-                 """);
+        final var post1 = new Post("Welcome to my blog!", "I hope you enjoy it!");
         final var post2 = new Post("What makes cats such great pets?",
                 """
                  Cats make wonderful pets for a variety of reasons. They are independent yet affectionate, often forming strong bonds with their owners.
